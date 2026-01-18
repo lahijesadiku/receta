@@ -1,0 +1,438 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.ls-menu{
+    border:20px solid transparent;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #2e2e2e;
+}
+
+.ls-menu li{
+    display: inline-block;
+}
+
+.ls-menu a{
+    text-decoration: none;
+    padding:10px 40px;
+    color:white;
+}
+
+.ls-menu a:hover{
+    color:#d73900;
+    font-weight: bold;
+}
+
+.ls-menu h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.ls-title{
+    background-color: #2e2e2e;
+    width:100%;
+}
+
+.ls-title a{
+    text-decoration: none;
+    color:white;
+}
+
+.ls-title h1{
+    padding:30px;
+    font-weight: normal;
+}
+
+.ls-title a:hover{
+    color:#d73900;
+}
+
+hr{
+    margin:30px;
+}
+
+.ls-content{
+    width:100%;
+}
+
+/* ===== DROPDOWN ===== */
+
+.ls-menu .ls-dropdown{
+    position: relative;
+}
+
+.ls-menu .ls-dropdown-menu{
+    background-color: #2e2e2e;
+    border: none;
+    margin-top: 10px;
+}
+
+.ls-menu .ls-dropdown-item{
+    color: white;
+    padding: 10px 40px;
+}
+
+.ls-menu .ls-dropdown-item:hover{
+    background-color: transparent;
+    color: #d73900;
+}
+
+.ls-about{
+    background-color: #b98448;
+    width:100%;
+    height:2000px;
+}
+
+.ls-recetat{
+    width:100%;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+.ls-paqe{
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    margin-left: 2%;
+}
+
+.ls-paqe img{
+    width:100%;
+}
+
+.ls-paqe h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ls-paqe a:hover{
+    font-weight: bold;
+    color:#d73900;
+}
+
+.ls-paqe a{
+    text-decoration: none;
+    color:white;
+}
+
+.ls-paqe button{
+    float: right;
+    width:30%;
+    padding:20px;
+    border-radius: 40px;
+    opacity:0.5;
+}
+
+.ls-paqe button:hover{
+    opacity:1;
+}
+
+.ls-butoni{
+    width:100%;
+}
+
+.ls-butoni button{
+    background-color: white;
+    border-radius: 40px;
+    padding:30px;
+}
+
+.ls-butoni button:hover{
+    font-weight: bold;
+}
+
+.ls-cover{
+    width:100%;
+}
+
+.ls-cover img{
+    width:100%;
+}
+
+.ls-siperfaqja{
+    background-color: #191a1c;
+    height:1000px;
+    margin-top:5%;
+}
+
+.ls-work{
+    width:100%;
+}
+
+.ls-work h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.ls-work p{
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+
+.ls-pjesapare{
+    background-color:#191a1c;
+    height:2000px;
+}
+
+.ls-work span{
+    color:#d73900;
+}
+
+.ls-pjesadyte{
+    background-color:#191a1c;
+    height:3500px;
+}
+
+.ls-pjesatret{
+    background-color:#191a1c;
+    height:1000px;
+}
+
+.ls-pjesakatert{
+    background-color:#191a1c;
+    height:1500px;
+}
+
+.ls-fasulet{
+    width:100%;
+    height:500px;
+    background-color: #191a1c;
+}
+
+.ls-fotofasule{
+    width:70%;
+    float:left;
+}
+
+.ls-fotofasule img{
+    width:60%;
+    float:left;
+    margin:10px;
+    margin-left:10%;
+}
+
+.ls-fasuleshkrim{
+    width:20%;
+    float:left;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+    color:white;
+}
+
+.ls-fasuleshkrim h1{
+    width:20%;
+    float:left;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #d73900;
+}
+
+.ls-fjalia{
+    font-weight: bold;
+}
+
+.ls-fasuleshkrim li{
+    margin-left:10px;
+}
+
+.ls-pergatitja{
+    background-color: #191a1c;
+    height:500px;
+    color:white;
+    font-family: sans-serif;
+    padding:50px;
+}
+
+.ls-pergatitja h1{
+    color:#d73900;
+    letter-spacing: 2px;
+}
+
+.ls-recipes h1{
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ls-footer{
+    width:99%;
+    height:700px;
+    background-color:#191a1c;
+    color:white;
+    padding:50px;
+    float:left;
+}
+
+.ls-pershkrimi{
+    width:30%;
+    margin:10px;
+    float:left;
+}
+
+.ls-kontakti{
+    width:30%;
+    margin:10px;
+    float:left;
+}
+
+.ls-pershkrimi p{
+    font-size: 20px;
+}
+
+.ls-kontakti h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.ls-kontakti i{
+    margin:10px;
+}
+
+.ls-harta iframe{
+    width:90%;
+    height:200px;
+}
+
+.ls-foodbtn{
+    padding:10px;
+}
+
+.ls-menuend{
+    font-family: sans-serif;
+    text-align: center;
+    margin:30px;
+    font-size: 20px;
+}
+
+.ls-menuend li{
+    display: inline;
+}
+
+.ls-menuend a{
+    text-decoration: none;
+    padding:10px 40px;
+    color:white;
+}
+
+.ls-menuend a:hover{
+    color:#d73900;
+    font-weight: bold;
+}
+
+.ls-recipes{
+    width:100%;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top:5%;
+}
+
+.ls-idea{
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    margin-left:10%;
+}
+
+.ls-idea img{
+    width:100%;
+}
+
+.ls-idea h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ls-idea a:hover{
+    font-weight: bold;
+    color:#d73900;
+}
+
+.ls-idea a{
+    text-decoration: none;
+    color:white;
+}
+
+.ls-idea h1:hover{
+    color:#d73900;
+}
+
+.ls-ideas{
+    color:white;
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    margin-left: 2%;
+}
+
+.ls-menyra{
+    border: 1px solid #7E7E77;
+    background-color: rgb(25, 26, 28);
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    margin-left: 2%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.ls-menyra img{
+    width:100%;
+}
+
+.ls-menyra h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ls-menyra a:hover{
+    font-weight: bold;
+    color:#d73900;
+}
+
+.ls-menyra a{
+    text-decoration: none;
+    color:white;
+}
+
+.ls-menyra:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ls-tekst{
+    color:white;
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 10px;
+    height: 350px;
+    margin-left: 2%;
+}
+
+.ls-recipe{
+    width:100%;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top:10%;
+}
